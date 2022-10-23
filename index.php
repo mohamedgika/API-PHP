@@ -3,7 +3,7 @@
 require "database/user.php";
 // header('Content-Type: application/json; charset=utf-8'); // To Convert JSON Auto
 
-
+ini_set('memory_limit', '2048M');
 
 // $url = $_SERVER['QUERY_STRING'];
 // $url = explode("/",$url); // Array [0]==>"ROOT"  [1]==>"PART TWO FROM URL"
